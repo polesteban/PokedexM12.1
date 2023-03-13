@@ -1,0 +1,49 @@
+body {
+    background-image: url(img_pokedex/kanto-map.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 300px;
+    position: 0;
+    font-family: 'Press Start 2P', cursive;
+    @import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+}
+
+#titulo {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+#pokedex {
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+#cuindaquil {
+    position: absolute;
+    top: 320px;
+    left: 30px;
+}
+#gengar {
+    position: absolute;
+    top: 340px;
+    left: 30px;
+}
+#mew {
+    position: absolute;
+    top: 360px;
+    left: 30px;
+}
+#rayquaza {
+    position: absolute;
+    top: 380px;
+    left: 30px;
+}
+
